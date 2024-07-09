@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GENERAL" Id="{9924f14a-6d84-44a2-b9a8-ff44741be715}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+//Input BOOLS
+bDummySw1		:		BOOL;
+bDummySw2		:		BOOL;
+bDummySw3		: 		BOOL;
+bDummySw4		:		BOOL;
+bDummySw5		: 	 	BOOL;
+
+//Output BOOLS
+bDummyLt1		:		BOOL;
+bDummyLt2		:		BOOL;
+bDummyLt3		: 		BOOL;
+bDummyLt4		:		BOOL;
+bDummyLt5		: 	 	BOOL;
+
+//INTS
+iDummy1			:		INT;
+iDummy2			:		INT;
+iDummy3			:		INT;
+iDummy4			:		INT;
+iDummy5			:		INT;
+
+//REALS
+rDummy1			:		REAL;
+rDummy2			:		REAL;
+rDummy3			:		REAL;
+rDummy4			:		REAL;
+rDummy5			:		REAL;
+
+//STRINGS
+sDummy1			:		STRING;
+sDummy2			:		STRING;
+sDummy3			:		STRING;
+sDummy4			:		STRING;
+sDummy5			:		STRING;
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
