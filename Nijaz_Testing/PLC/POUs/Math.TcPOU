@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Math" Id="{64151ea8-35af-4125-898a-d38500c1ddbb}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK Math
+VAR_INPUT
+	
+END_VAR
+VAR_OUTPUT
+	
+result		:	INT;
+
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+
+]]></ST>
+    </Implementation>
+    <Method Name="addition" Id="{c3e6c671-af61-4a44-8435-3148136e521f}">
+      <Declaration><![CDATA[METHOD addition : INT
+VAR_INPUT
+	
+input1		:	INT;
+input2		:	INT;
+
+
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[
+
+result := input1 + input2;
+]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="Math">
+      <LineId Id="9" Count="0" />
+      <LineId Id="20" Count="0" />
+      <LineId Id="19" Count="0" />
+    </LineIds>
+    <LineIds Name="Math.addition">
+      <LineId Id="11" Count="2" />
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
